@@ -3,7 +3,9 @@
 ## Student Details
 
 **Name:** SAVALIYA UTTAM PANKAJBHAI
+
 **Registration Number:** 25BAS10005
+
 **Course:** Fundamentals of AI and ML
 
 ---
