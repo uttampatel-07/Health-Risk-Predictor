@@ -39,22 +39,10 @@ if st.button("Predict Risk"):
     family_val = family_map[family_history]
 
     
-    input_data = [
-        age,
-        diet_val,
-        exercise,
-        sleep,
-        stress_val,
-        bmi,
-        smoking_val,
-        alcohol_val,
-        family_val
-    ]
+    input_data = [age,diet_val,exercise,sleep,stress_val,bmi,smoking_val,alcohol_val,family_val]
 
-    
     prediction = model.predict([input_data])
 
-    
     risk_map = {0: "Low Risk", 1: "Medium Risk", 2: "High Risk"}
 
     st.success(risk_map[prediction[0]])
