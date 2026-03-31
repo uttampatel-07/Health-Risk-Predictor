@@ -10,7 +10,7 @@
 
 ---
 
-## 📌 Project Description
+##   Project Description
 
 The **Health Risk Predictor** is an AI/ML-based application that predicts an individual's health risk level (Low, Medium, High) based on lifestyle and health-related inputs.
 
@@ -23,13 +23,13 @@ This project provides both:
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 Many individuals are unaware of how their daily lifestyle habits affect their health. This project helps in predicting health risk early and encourages users to adopt healthier habits.
 
 ---
 
-## 🧠 Methodology
+##  Methodology
 
 * Dataset Source: Kaggle
 * Data Preprocessing: Encoding categorical variables using mapping techniques
@@ -39,7 +39,7 @@ Many individuals are unaware of how their daily lifestyle habits affect their he
 
 ---
 
-## 📊 Dataset Information
+##  Dataset Information
 
 The dataset used in this project is obtained from Kaggle and includes the following features:
 
@@ -55,7 +55,7 @@ The dataset used in this project is obtained from Kaggle and includes the follow
 
 ---
 
-## ⚙️ Technologies Used
+##  Technologies Used
 
 * Python
 * NumPy
@@ -66,7 +66,7 @@ The dataset used in this project is obtained from Kaggle and includes the follow
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 health-risk-predictor/
@@ -83,48 +83,33 @@ health-risk-predictor/
 
 ---
 
-## 🚀 Installation & Setup
 
-1. Clone the repository:
 
-```
-git clone https://github.com/YOUR-USERNAME/health-risk-predictor.git
-cd health-risk-predictor
-```
+##  How to Run the Project
 
-2. Install required libraries:
-
-```
-pip install -r requirements.txt
-```
-
----
-
-## ▶️ How to Run the Project
-
-### 🔹 Run CLI Version (MANDATORY)
+###   Run CLI Version (MANDATORY)
 
 ```
 python main.py
 ```
 
-👉 This version takes user input from terminal and predicts health risk.
+ This version takes user input from terminal and predicts health risk.
 (Implemented in )
 
 ---
 
-### 🔹 Run UI Version (OPTIONAL)
+###  Run UI Version (OPTIONAL)
 
 ```
 streamlit run app.py
 ```
 
-👉 This opens an interactive web interface for prediction.
+ This opens an interactive web interface for prediction.
 (Implemented in )
 
 ---
 
-## 💡 Features
+##  Features
 
 * Predicts health risk (Low / Medium / High)
 * Uses trained machine learning model
@@ -135,7 +120,7 @@ streamlit run app.py
 
 ---
 
-## 📊 Sample CLI Output
+##  Sample CLI Output
 
 ```
 === Health Risk Predictor (CLI) ===
@@ -155,7 +140,7 @@ Result: Low Risk
 
 ---
 
-## ⚠️ Notes
+##  Notes
 
 * The dataset is sourced from Kaggle and used for educational purposes.
 * Predictions are based on machine learning model and are not medically certified.
@@ -163,7 +148,7 @@ Result: Low Risk
 
 ---
 
-## 📈 Future Improvements
+##  Future Improvements
 
 * Use real-world healthcare datasets
 * Improve model accuracy
@@ -172,7 +157,7 @@ Result: Low Risk
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 
 This project demonstrates how machine learning can be used to predict health risks based on lifestyle factors. It highlights the importance of AI in assisting individuals to make better health decisions.
 
